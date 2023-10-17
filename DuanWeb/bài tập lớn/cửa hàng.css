@@ -1,0 +1,240 @@
+#shop {
+    width: 100%;
+    padding-left: 100px;
+    background-color: rgb(227, 227, 227);
+}
+
+#shop a {
+    text-decoration: none;
+}
+
+#shop .header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#shop .header1 {
+    margin-right: 1000px;
+    font-size: 20px;
+}
+
+#shop .header1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+#shop .header2 {
+    color: gray;
+}
+
+#first-box {
+    width: 1380px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#first-box .first-box-product {
+    margin-right: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 175px;
+    overflow: hidden;
+}
+
+#first-box .first-box-product img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+#first-box .first-box-product img:hover {
+    transform: scale(1.2);
+}
+
+#first-box .first-box-product a {
+    text-decoration: none;
+}
+
+#second-box {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* second-box-left */
+
+#second-box-left {
+    width: 330px;
+    position: relative;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#second-box-left a {
+    text-decoration: none;
+}
+
+.second-box-left {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#second-box-left .title-price {
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+#second-box-left .price-filter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#second-box-left .filter a {
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color: rgb(135, 195, 255);
+    border-radius: 3px;
+}
+
+#second-box-left .button1 {
+    padding-left: 10px;
+}
+
+
+/* thanh bảng giá*/
+
+input[type="range"] {
+    width: 100%;
+}
+
+
+/* thanh thương hiệu + size */
+
+#second-box-left .menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu li:hover {
+    background-color: #f0f0f0;
+}
+
+#second-box-left .menu a {
+    text-decoration: none;
+}
+
+
+/* second-box-right */
+
+#second-box-right {
+    display: flex;
+    flex-direction: column;
+}
+
+#second-box-right .box1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#second-box-right .box {
+    margin-top: 10px;
+    width: 245px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 20px;
+    position: relative;
+}
+
+#second-box-right .img img {
+    width: 100%;
+    height: 220px;
+}
+
+#second-box-right .content {
+    padding-left: 8px;
+}
+
+#second-box-right .giohang {
+    padding: 20px 10x;
+    color: white;
+}
+
+#second-box-right .add {
+    background-color: rgb(50, 50, 241);
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 5px;
+    font-family: 'Helvetica';
+    position: absolute;
+    bottom: 40px;
+}
+
+#second-box-right .add:hover {
+    background-color: red;
+}
+
+#second-box-right .SKU {
+    font-weight: bold;
+}
+
+#second-box-right .ma {
+    position: absolute;
+    bottom: 5px;
+}
+
+#second-box-right .number {
+    color: rgb(176, 176, 176);
+}
+
+#second-box-right .p1 {
+    color: rgb(175, 175, 175);
+}
+
+#second-box-right .p2 {
+    color: blue;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+#second-box-right b {
+    padding-left: 10px;
+}
+
+#second-box-right .hot1 {
+    background-color: #e22d2d;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Helvetica';
+    color: #f3f2f2;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#second-box-right .hot {
+    position: absolute;
+    top: 0;
+    color: #706d6d;
+    padding: 20px 5px;
+    border-radius: 15px;
+}
