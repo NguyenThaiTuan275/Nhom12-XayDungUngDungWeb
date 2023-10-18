@@ -2,6 +2,19 @@
     background-color: #f6f6f6;
 }
 
+#body .img {
+    overflow: hidden;
+}
+
+#body .img img {
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+#body .img img:hover {
+    transform: scale(1.2);
+}
+
 .box1 img {
     border-radius: 5px;
     width: 445px;

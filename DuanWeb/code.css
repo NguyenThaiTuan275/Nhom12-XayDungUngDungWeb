@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+
+/* .header {
+    width: 1423.6px;
+    margin: 0px 29.6px;
+    padding: 0px 15px;
+} */
+
 .header-top {
     background-color: #ffffff;
     color: #777777;
@@ -46,6 +53,21 @@
     font-size: 15px;
     line-height: 24px;
     padding: 5px 0px;
+}
+
+.main {
+    position: relative;
+}
+
+.logo1 {
+    position: absolute;
+    top: 5;
+    transform: translate(-300%, -220%);
+}
+
+.logo1 img {
+    width: 200px;
+    height: 66px;
 }
 
 .header-top-center {
