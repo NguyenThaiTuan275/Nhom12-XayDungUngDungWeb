@@ -2,10 +2,9 @@
     background-color: #f6f6f6;
 }
 
-img {
+.box1 img {
     border-radius: 5px;
     width: 445px;
-    height: 280px;
 }
 
 #body {
@@ -47,5 +46,5 @@ img {
 }
 
 p {
-    width: 1380px;
+    /* width: 1380px; */
 }

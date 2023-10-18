@@ -3,8 +3,6 @@
 }
 
 .header-top {
-    width: 1459px;
-    height: 80px;
     background-color: #ffffff;
     color: #777777;
     font-size: 15px;
@@ -12,7 +10,6 @@
 }
 
 .hd-container {
-    width: 1400px;
     height: 80px;
     color: #777777;
     font-size: 15px;
@@ -166,8 +163,6 @@ h6 {
 
 .header-down {
     background-color: #96afe0;
-    width: 1459px;
-    height: 80px;
     font-size: 15px;
     line-height: 24px;
 }
