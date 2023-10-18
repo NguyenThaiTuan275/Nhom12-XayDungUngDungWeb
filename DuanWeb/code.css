@@ -305,30 +305,32 @@ h6 {
 }
 
 .footer {
-    color: #777777;
-    flex-basis: 33.3333%;
-    line-height: 25.6px;
     margin: 0px 0px 24px;
-    padding: 0px 15px;
+    padding: 10px 50px;
 }
 
 .container-footer {
     color: #777777;
-    display: flex;
-    flex-wrap: wrap;
     line-height: 25.6px;
+    display: flex;
 }
 
 .footer-center {
-    color: #777777;
-    flex-basis: 33.3333%;
+    width: 920px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-center1,
+.footer-center2,
+.footer-center3 {
     line-height: 25.6px;
-    margin: 0px 0px 24px;
-    padding: 0px 15px;
+    margin: 24px;
+    padding: 24px;
 }
 
 .widget-title {
-    color: #777777;
+    color: #333;
     display: inline;
     font-weight: 600;
     letter-spacing: 0.8px;
@@ -348,11 +350,17 @@ h6 {
 }
 
 .menu-item-ft>a {
+    color: #4e4d4d;
     text-decoration: none;
     display: inline-block;
-    flex-basis: 0%;
     font-family: Open Sans;
     line-height: 25.6px;
     padding: 6px 0px;
     text-align: left;
+}
+
+.footer-right {
+    line-height: 25.6px;
+    margin: 24px 0px;
+    padding: 24px 0px;
 }
