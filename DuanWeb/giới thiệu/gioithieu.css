@@ -124,7 +124,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.bo {
+.boz {
     width: 100%;
     height: auto;
     display: flex;
@@ -144,24 +144,28 @@
     position: relative;
     text-align: center;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .VD2 {
     position: relative;
     text-align: center;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .VD3 {
     position: relative;
     text-align: center;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .VD4 {
     position: relative;
     text-align: center;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .ps5 {
@@ -245,7 +249,7 @@
     text-decoration: none;
 }
 
-.bo:hover {
+.boz:hover {
     transform: scale(1.2);
 }
 

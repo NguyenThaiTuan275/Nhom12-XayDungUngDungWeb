@@ -8,6 +8,25 @@
     <title>Liên Hệ</title>
     <link rel="stylesheet" href="./lienhe.css">
     <link rel="stylesheet" href="../code.css">
+
+    <!-- <script>
+        function validateForm() {
+            let x = document.forms["myform"]["fname"].value;
+            if (x == "") {
+                alert("Bạn chưa điền tên");
+                return false;
+            }
+        }
+
+        function validateForm() {
+            let x = document.forms["myform"]["fsdt"].value;
+            if (x == "") {
+                alert("Bạn chưa điền số điện thoại");
+                return false;
+            }
+        }
+    </script> -->
+
 </head>
 
 <body>
@@ -133,7 +152,9 @@
     <div class="lien-he">
         <div class="lh-container">
             <div class="lc-top">
-                <img src="../image/map.png" alt="map" style="width: 100%; height: auto;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20731.210259712825!2d105.74439806987637!3d20.959203299728486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452efff394ce3%3A0x391a39d4325be464!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBQaGVuaWthYQ!5e0!3m2!1svi!2s!4v1697081966573!5m2!1svi!2s"
+                    width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <img src="../image/map.png" alt="map" style="width: 100%; height: auto;"> -->
             </div>
             <div class="lc-center">
                 <div class="lc-center1">
@@ -203,11 +224,11 @@
             <div class="lc-down">
                 <div class="yeu-cau">
                     <h4>Liên hệ</h4>
-                    <form action="/action_page.php">
-                        <input type="text" class="ten" value="Họ và tên"><br><br>
-                        <input type="text" class="sdt" value="Số điện thoại"><br><br>
-                        <input type="text" class="email" value="Email"><br><br>
-                        <input type="text" class="message" value="Lời nhắn" style="height: 190px;"><br><br>
+                    <form action="/action_page.php" name="myform">
+                        <input type="text" class="ten" name="fname" value="Họ và tên" required><br><br>
+                        <input type="text" class="sdt" name="fsdt" value="Số điện thoại" required><br><br>
+                        <input type="text" class="email" name="femail" value="Email" required><br><br>
+                        <input type="text" class="message" name="fmessage" value="Lời nhắn" style="height: 190px;" required><br><br>
                         <input type="submit" value="Gửi yêu cầu" style="width: 117px; height: 42px;">
                     </form>
                 </div>
